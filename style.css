@@ -1,0 +1,33 @@
+.heroBar {
+  background-color: rgb(221, 99, 99);
+  height: 100px;
+  margin: 20px;
+}
+
+.gameArea {
+  background-color: rgb(92, 204, 110);
+  height: 400px;
+  margin: 20px;
+}
+
+.buttons {
+  background-color: #3321;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.left {
+  background-color: rgb(127, 86, 204);
+  height: 100px;
+  width: 180px;
+  border-radius: 20px;
+}
+
+.right {
+  background-color: rgb(127, 86, 204);
+  height: 100px;
+  width: 180px;
+  border-radius: 20px;
+}
