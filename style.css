@@ -5,8 +5,7 @@
 }
 
 .gameArea {
-  background-color: rgb(92, 204, 110);
-  height: 400px;
+  font-size: 30px;
   margin: 20px;
 }
 
@@ -16,6 +15,7 @@
   display: flex;
   justify-content: space-around;
   margin: 20px;
+  font-size: 30px;
 }
 
 .left {
@@ -30,4 +30,25 @@
   height: 100px;
   width: 180px;
   border-radius: 20px;
+}
+
+.gameMain {
+  background-color: rgb(92, 204, 110);
+  height: 400px;
+  margin: 20px;
+  display: flex;
+  justify-content: stretch;
+}
+
+.background {
+  background-image: url("https://pbs.twimg.com/media/EFkAOvAWkAIq-Cn.jpg");
+  width: 300px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin: 20px;
+}
+
+.heroBar {
+  font-size: 20px;
 }
